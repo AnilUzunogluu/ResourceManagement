@@ -10,7 +10,22 @@ public class ResourcePile : Building
 {
     public ResourceItem Item;
 
-    public float ProductionSpeed = 0.5f;
+    public float productionSpeed;
+
+    public float ProductionSpeed
+    {
+        get
+        {
+            return productionSpeed;
+        }
+        set
+        {
+            if (value >= 0f)
+            {
+                productionSpeed = value;
+            }
+        }
+    }
 
     private float m_CurrentProduction = 0.0f;
 

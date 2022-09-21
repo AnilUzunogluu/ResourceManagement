@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bd004fb8-e4af-4ff1-abbc-564077e389af" name="Changes" comment="" />
+    <list default="true" id="bd004fb8-e4af-4ff1-abbc-564077e389af" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ResourceManagement/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ResourceManagement/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Optimization/Scripts/OptimUnit.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Optimization/Scripts/OptimUnit.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Main.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MainManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MainManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MenuUIHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MenuUIHandler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ResourcePile.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ResourcePile.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UserControl.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UserControl.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,12 +63,15 @@
       <option name="presentableId" value="Default" />
       <updated>1663699381897</updated>
       <workItem from="1663699382915" duration="3929000" />
+      <workItem from="1663780257497" duration="1758000" />
+      <workItem from="1663784145522" duration="4349000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
   <component name="VcsManagerConfiguration">

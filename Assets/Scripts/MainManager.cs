@@ -1,11 +1,9 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
+using System.IO;
 using UnityEngine;
 
 public class MainManager : MonoBehaviour
 {
-    public static MainManager Instance;
+    public static MainManager Instance { get; private set; }
     public Color ChosenColor;
 
     private void Awake()
@@ -17,5 +15,29 @@ public class MainManager : MonoBehaviour
         }
         Instance = this;
         DontDestroyOnLoad(gameObject);
+        LoadColor();
+    }
+    
+    
+    public void SaveColor()
+    {
+        SaveData data = new SaveData();
+        data.ChosenColor = ChosenColor;
+
+        string json = JsonUtility.ToJson(data);
+  
+        File.WriteAllText(Application.persistentDataPath + "/savefile.json", json);
+    }
+    
+    public void LoadColor()
+    {
+        var path = Application.persistentDataPath + "/savefile.json";
+        if (File.Exists(path))
+        {
+            string json = File.ReadAllText(path);
+            SaveData data = JsonUtility.FromJson<SaveData>(json);
+
+            ChosenColor = data.ChosenColor;
+        }
     }
 }
